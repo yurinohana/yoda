@@ -88,7 +88,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/yoda-linebot/dev/1485843830552-2017-01-31T06:23:50.552Z/yoda-linebot.zip"
+          "S3Key": "serverless/yoda-linebot/dev/1486122599848-2017-02-03T11:49:59.848Z/yoda-linebot.zip"
         },
         "FunctionName": "yoda-linebot-dev-hello",
         "Handler": "handler.hello",
@@ -107,14 +107,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "HelloLambdaVersionxvZo2JplyAQ7zRidEZhupvkHNuEKoowlDDiZDw8nE": {
+    "HelloLambdaVersionLnzl1MvFWjRNlAstnczlgn5FOrp9OBqpMNu1Bt19vY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "xvZo2JplyAQ7zRidEZhupv++kHNuEKoowlDDiZDw8nE="
+        "CodeSha256": "Lnzl1MvFWj+RNlAstnczlgn5FOrp9OBqpMNu1Bt19vY="
       }
     },
     "LineWebhookLambdaFunction": {
@@ -124,7 +124,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/yoda-linebot/dev/1485843830552-2017-01-31T06:23:50.552Z/yoda-linebot.zip"
+          "S3Key": "serverless/yoda-linebot/dev/1486122599848-2017-02-03T11:49:59.848Z/yoda-linebot.zip"
         },
         "FunctionName": "yoda-linebot-dev-lineWebhook",
         "Handler": "line.webhook",
@@ -143,14 +143,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "LineWebhookLambdaVersionxvZo2JplyAQ7zRidEZhupvkHNuEKoowlDDiZDw8nE": {
+    "LineWebhookLambdaVersionLnzl1MvFWjRNlAstnczlgn5FOrp9OBqpMNu1Bt19vY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "LineWebhookLambdaFunction"
         },
-        "CodeSha256": "xvZo2JplyAQ7zRidEZhupv++kHNuEKoowlDDiZDw8nE="
+        "CodeSha256": "Lnzl1MvFWj+RNlAstnczlgn5FOrp9OBqpMNu1Bt19vY="
       }
     },
     "ApiGatewayRestApi": {
@@ -277,7 +277,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1485843830622": {
+    "ApiGatewayDeployment1486122599909": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -375,7 +375,7 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersionxvZo2JplyAQ7zRidEZhupvkHNuEKoowlDDiZDw8nE"
+        "Ref": "HelloLambdaVersionLnzl1MvFWjRNlAstnczlgn5FOrp9OBqpMNu1Bt19vY"
       }
     },
     "LineWebhookLambdaFunctionArn": {
@@ -390,7 +390,7 @@
     "LineWebhookLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "LineWebhookLambdaVersionxvZo2JplyAQ7zRidEZhupvkHNuEKoowlDDiZDw8nE"
+        "Ref": "LineWebhookLambdaVersionLnzl1MvFWjRNlAstnczlgn5FOrp9OBqpMNu1Bt19vY"
       }
     },
     "ServiceEndpoint": {
